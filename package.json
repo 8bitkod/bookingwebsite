@@ -1,11 +1,12 @@
 {
 
-    "homepage": "https://8bitkod.github.io/bookingwebsite",
+ 
   "name": "frontend",
-
   "version": "0.1.0",
+   "homepage": "https://8bitkod.github.io/bookingwebsite",
   "private": true,
   "dependencies": {
+     "gh-pages": "^5.0.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -23,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+"deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +45,4 @@
       "last 1 safari version"
     ]
   }
-
-  
 }
